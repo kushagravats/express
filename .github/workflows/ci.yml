@@ -7,11 +7,7 @@ on:
       - develop
       - '4.x'
       - '5.x'
-    paths-ignore:
-      - '*.md'
-  pull_request:
-    paths-ignore:
-      - '*.md'
+  pull_request: {}
 
 # Cancel in progress workflows
 # in the scenario where we already had a run going for that PR/branch/tag but then triggered a new run
